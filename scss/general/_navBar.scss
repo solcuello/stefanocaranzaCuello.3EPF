@@ -1,0 +1,25 @@
+//nesting -anidacion//
+
+nav{
+    background-color: $maincolor;
+    ul{display: flex;
+        
+        li{list-style: none;
+
+            a{
+                transition:0.5s;
+                font-family: $textoM;
+                text-transform: uppercase;
+                letter-spacing: 3px; 
+            
+                &:hover{
+                background-color: $fondoP;
+                border-radius: 50px;
+                }
+            }
+        }
+    }
+}
+
+
+
