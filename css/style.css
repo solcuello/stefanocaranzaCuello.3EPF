@@ -10115,13 +10115,12 @@ textarea.form-control-lg {
 }
 
 .prox:hover {
-  background-color: rgb(212, 212, 212);
+  color: #349E94;
 }
 
 P {
-  font-size: 0.8em;
-  background-color: #EBC00C;
-  color: white;
+  font-size: 1em;
+  color: rgb(8, 8, 8);
   border-radius: 10px;
 }
 
@@ -10224,26 +10223,24 @@ nav ul li a:hover {
   background-image: url(../img/404.jpg);
   background-size: cover;
   width: 100%;
-  height: 150vh;
+  height: 80vh;
+  display: block;
 }
 
 .parrafo {
   width: auto;
   height: auto;
   background-color: rgba(255, 255, 255, 0.726);
-  font-size: 100%;
   font-family: "Courier New", Courier, monospace;
-  padding: 10px 10px 5px 10px;
+  padding: 15px 15px 15px 15px;
   border-radius: 8px;
-  margin-block-start: 10px;
+  margin-block-start: 20%;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 P {
   font-family: "Raleway", sans-serif;
-  color: rgb(8, 8, 8);
-  font-size: 0.9rem;
   width: auto;
   height: auto;
 }
@@ -10264,7 +10261,6 @@ p {
     width: 100%;
   }
 }
-/************** FIN DE PAGINA INDEX************/
 /*********************PAGINA MULTIMEDIA*****************/
 .center {
   margin: auto;
@@ -10284,7 +10280,6 @@ p {
 
 /*pagina multimedia*/
 /*********************PAGINA CONTACTO **********/
-/* formulario*/
 .formulario {
   width: 60%;
   background-color: rgba(255, 255, 255, 0.849);
@@ -10299,10 +10294,6 @@ label {
   font-size: 0.8rem;
 }
 
-/* fin de formulario*/
 /*********************FIN DE PAGINA CONTACTO **********/
-/*fin de pagina de contacto*/
-/*****************este es mi footer************/
-/******************fin de footer***********************/
 
 /*# sourceMappingURL=style.css.map */

@@ -13,22 +13,21 @@
 .prox{
     @extend .name;
     &:hover{
-        background-color: $fondoP;
+        color:$resaltar;
         }
   
 }
 
 //mixins
-@mixin texto($grande,$fondo,$color){
+@mixin texto($grande,$color){
     font-size: $grande;
-    background-color: $fondo;
     color: $color;
     border-radius: 10px;
 
 }
 
 P{
-    @include texto(0.8em, #EBC00C, white)
+    @include texto (1em, $black)
 }
 
 //map//
